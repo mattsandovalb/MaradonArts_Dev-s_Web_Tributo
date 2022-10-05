@@ -1,0 +1,14 @@
+.fondo{
+    background-color:gray;
+    background-size: cover;
+    background-position: center top;
+}
+h1{
+    padding-top: 30px;
+    color: black;
+
+    
+}
+.pt-10{
+    padding-top:6rem;
+}
