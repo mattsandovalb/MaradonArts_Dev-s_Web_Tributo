@@ -3,15 +3,23 @@
    max-height: 100vh;
 }
 .artista{
+    font-family: Open Sans;
     color:black;
     font-weight: 700;
     padding-bottom: 40px;
     font-size: x-large;
+    opacity:70%;
 }
 .artista2{
-    color:rgb(207, 202, 202);
+    font-family: Open Sans;
+    color:rgb(240, 151, 151);
     font-weight: 700;
     padding-bottom: 40px;
+    font-size: x-large;
+}
+.nav-link{
+    font-size: 20px;
+
 }
 
 .central-div{
