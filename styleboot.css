@@ -1,14 +1,151 @@
-.fondo{
-    background-color:gray;
-    background-size: cover;
-    background-position: center top;
+.carousel-inner {
+   padding-top:50px;
+   max-height: 100vh;
 }
-h1{
-    padding-top: 30px;
-    color: black;
+.artista{
+    color:black;
+    font-weight: 700;
+    padding-bottom: 40px;
+    font-size: x-large;
+}
+.artista2{
+    color:rgb(207, 202, 202);
+    font-weight: 700;
+    padding-bottom: 40px;
+}
 
+.central-div{
+    width: 920px;
+    height: 410px;
+    background: rgba(255, 255, 255, 0.8);
+    opacity: 80%;
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    z-index: 1;
+}
+
+.texto-square{
+    font-family: Open Sans;
+    letter-spacing: 0em;
+    padding-top: 5%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 131px;
+    text-align: center;
+    color: #000000;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media only screen and (min-width: 576px) {
+    .carousel-item img {
+        height: 100vh;
+      }
+    .central-div{
+        top: 35%;
+        width: 320px;
+        height: 320px;
+    }
     
-}
-.pt-10{
-    padding-top:6rem;
-}
+    .texto-square{
+        padding-top: 5%;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 57px;
+        color: #000000;
+        text-align: left; 
+        margin-top:-30px;
+        margin: 30px;
+    }
+  }
+  /* Medium devices (tablets, 768px and up)*/
+  @media only screen and (min-width: 768px) {
+    
+    .central-div{
+        width: 430px;
+        height: 220px;
+        left: 22%;
+        margin: 30px;
+    }
+    
+    .texto-square{
+        padding-top: 0%;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 57px;
+        color: #000000;
+        text-align: left; 
+        margin-top:-30px;
+        margin: 30px;
+    }
+  }
+  
+/* Large devices (desktops, 992px and up)*/
+  @media  only screen and (min-width: 992px) {
+    
+    .central-div{
+        width: 450px;
+        height: 250px;
+        left: 25%;
+        line-height: 0.9em;
+        margin: 30px;
+        margin-left:60px
+    }
+    .texto-square{
+        padding-top: 0%;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 1em;
+        color: #000000;
+        text-align: left; 
+        margin-top:-30px;
+        margin: 30px;
+    }
+  }
+  
+/* Large devices (desktops, 992px and up)*/
+  @media  only screen and (min-width: 1200px) {
+   
+    .central-div{
+        width: 730px;
+        height: 320px;
+        left: 20%;
+        margin: 30px;
+        
+    }
+    .texto-square{
+        font-weight: 700;
+        font-size: 78px;
+        line-height: 1.3em;
+        padding-top: 30px;
+        color: #000000;
+        text-align: center; 
+        margin-top:-30px;
+        margin: 30px;
+    }
+  }
+  @media  only screen and (min-width: 1501px) {
+    
+    .central-div{
+        width: 730px;
+        height: 350px;
+        left: 30%;
+        margin: 30px;
+        
+    }
+    .texto-square{
+        font-weight: 700;
+        font-size: 78px;
+        line-height: 1.2em;
+        color: #000000;
+        text-align: center; 
+        margin-top:-30px;
+        margin: 30px;
+    }
+  }
+
+
+
