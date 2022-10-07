@@ -37,8 +37,13 @@ body{
 
 
 /* RESPONSIVE */
+@media (min-width:375px){
+    .two_section{
+        text-align: center;
+    }
+}
+
 @media (min-width:425px){
-   
     .img_div{
         display: flex;
         justify-content: center;
@@ -71,7 +76,6 @@ body{
     .two_section{
         text-align: center;
     }
-    
 } 
 
 @media (min-width:1440px){
