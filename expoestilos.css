@@ -8,7 +8,8 @@
 .nav-prov {
     background-color: black;
     width: 100%;
-    height: 5vh;
+    height: 9vh;
+    margin-bottom: 20px;
 }
 
 
@@ -16,12 +17,15 @@
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 260px;
     position: relative;
 }
 
 .artist-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #fff;
     opacity: 0.8;
     width: 220px;
@@ -32,12 +36,75 @@
    
 }
 
-.artist {
-    margin-left: auto;
-    margin-left: auto;
-}
+/* .artist {
+
+} */
 
 img {
     width: 100%;
     height: 100%;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    opacity: 0.8;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 3rem;
+}
+
+.arrow-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (min-width: 576px) {
+    .art-container {
+
+        width: 380px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        display: flex;
+    }
+
+    .nav-prov {
+        margin-bottom: 30px;
+    }
+
+    .art-container {
+        width: 360px;
+        height: 440px;
+
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .art-container {
+        width: 470px;
+        height: 470px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+    .art-container {
+        width: 570px;
+        height: 490px;
+}
+}
+
+@media screen and (min-width: 1400px) {
+    .art-container {
+        width: 670px;
+        height: 500px;
+}
 }
