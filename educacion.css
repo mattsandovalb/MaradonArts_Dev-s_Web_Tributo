@@ -1,0 +1,44 @@
+.card-educacion {
+    width: 38vh; 
+    height: 13vh;
+} 
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    .card-educacion {
+        width: 58vh; 
+        height: 13vh;
+    } 
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .card-educacion {
+        width: 78vh; 
+        height: 13vh;
+    }
+}
+
+/*Large devices (landscape phones, 576px and up)*/
+@media (min-width: 992px) {
+    .card-educacion {
+        width: 98vh; 
+        height: 13vh;
+    } 
+}
+
+/*X-Large devices (landscape phones, 576px and up)*/
+@media (min-width: 1200px) { 
+    .card-educacion {
+        width: 108vh; 
+        height: 13vh;
+    } 
+}
+
+/*XX-Large devices (landscape phones, 576px and up)*/
+@media (min-width: 1400px) { 
+    .card-educacion {
+    width: 108vh; 
+    height: 13vh;
+    }  
+}
