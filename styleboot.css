@@ -6,15 +6,19 @@ body{
    max-height: 100vh;
 }
 .artista{
-    font-family: Open Sans;
+    font-family: "Open Sans";
     color:black;
     font-weight: 700;
     padding-bottom: 40px;
     font-size: x-large;
     opacity:70%;
 }
+.exposicioneslp{
+     text-decoration: none;
+     color:black
+}
 .artista2{
-    font-family: Open Sans;
+    font-family: "Open Sans";
     color:rgb(240, 151, 151);
     font-weight: 700;
     padding-bottom: 40px;
@@ -56,6 +60,35 @@ body{
     text-align: center;
     color: #000000;
 }
+.txtfooter{
+    font-size: 1em;
+}
+/* Small devices (landscape phones, 376px and up)*/
+
+@media only screen and (min-width: 376px) {
+    .logo{
+        margin-left: 30px;
+    }
+    .carousel-item img {
+        height: 85vh;
+      }
+    .central-div{
+        top: 35%;
+        width: 220px;
+        height: 320px;
+    }
+    
+    .texto-square{
+        padding-top: 5%;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 57px;
+        color: #000000;
+        text-align: left; 
+        margin-top:-30px;
+        margin: 10px;
+    }
+  }
 
 /* Small devices (landscape phones, 576px and up)*/
 
@@ -86,7 +119,7 @@ body{
     .central-div{
         width: 430px;
         height: 220px;
-        left: 22%;
+        left: 20%;
         margin: 30px;
     }
     
@@ -131,14 +164,14 @@ body{
     .central-div{
         width: 730px;
         height: 320px;
-        left: 20%;
+        left: 17%;
         margin: 30px;
         
     }
     .texto-square{
         font-weight: 700;
         font-size: 78px;
-        line-height: 1.3em;
+        line-height: 1em;
         padding-top: 30px;
         color: #000000;
         text-align: center; 
@@ -146,12 +179,12 @@ body{
         margin: 30px;
     }
   }
-  @media  only screen and (min-width: 1501px) {
+  @media  only screen and (min-width: 1400px) {
     
     .central-div{
         width: 730px;
         height: 350px;
-        left: 30%;
+        left: 25%;
         margin: 30px;
         
     }
