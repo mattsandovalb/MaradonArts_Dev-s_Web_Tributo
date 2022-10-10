@@ -1,7 +1,15 @@
+
+.edu_main{
+    margin-top: 30%;
+    padding-bottom: 10%;
+}
 .card-educacion {
     width: 38vh; 
     height: 13vh;
 } 
+.footer_foot{
+    display: flex;
+}
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
