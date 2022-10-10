@@ -19,7 +19,14 @@
 }
 .nav-link{
     font-size: 20px;
-
+    margin: 40px;
+}
+.logo{
+    margin-left: 60px;
+}
+.navbar-toggler{
+    margin-right: 40px;
+    height: 55px;
 }
 
 .central-div{
