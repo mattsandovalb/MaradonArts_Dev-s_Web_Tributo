@@ -4,9 +4,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-.matt_main{
-    margin-top: 15%;
-}
+
 
 .anchors_top a{
     font-size: 75%;
@@ -41,12 +39,12 @@ body{
 
 
 /* RESPONSIVE */
-@media (min-width: 320px){
+@media (max-width: 320px){
     .matt_main{
         margin-top: 50%;
     }
 }
-@media (min-width: 375px){
+@media (max-width: 375px){
     .matt_main{
         margin-top: 40%;
     }
