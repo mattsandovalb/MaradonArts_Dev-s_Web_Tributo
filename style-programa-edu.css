@@ -4,6 +4,10 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.matt_main{
+    margin-top: 15%;
+}
+
 .anchors_top a{
     font-size: 75%;
 }
@@ -37,8 +41,21 @@ body{
 
 
 /* RESPONSIVE */
+@media (min-width: 320px){
+    .matt_main{
+        margin-top: 50%;
+    }
+}
+@media (min-width: 375px){
+    .matt_main{
+        margin-top: 40%;
+    }
+}
+
 @media (min-width:425px){
-   
+    .matt_main{
+        margin-top: 50%;
+    }
     .img_div{
         display: flex;
         justify-content: center;
@@ -75,6 +92,7 @@ body{
 } 
 
 @media (min-width:1440px){
+   
      .onesection_div{
         display: flex;
     } 
