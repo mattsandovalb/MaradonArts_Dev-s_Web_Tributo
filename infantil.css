@@ -1,5 +1,12 @@
-.infan {
-    padding: 10% 10%;
+.infan {}
+
+@media only screen and (min-width: 576px) {
+    .infan {
+        padding-top: 150px;
+    }
+    .infan2 {
+        padding-top: 30px;
+    }
 }
 
 .infan-tx {
@@ -12,7 +19,7 @@
 }
 
 .boton-calend {
-    height: 15px
+    height: 15px;
 }
 
 .calendario-1 {
@@ -24,4 +31,12 @@
 
 .pint-kids {
     border: none;
+}
+
+.infan2 {
+    padding-bottom: 15%;
+}
+
+.btn {
+    margin: 0 0 10%;
 }
