@@ -13,6 +13,10 @@
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
+    .edu_main{
+        margin-top: 20%;
+        padding-bottom: 10%;
+    }
     .card-educacion {
         width: 58vh; 
         height: 13vh;
@@ -21,6 +25,10 @@
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+    .edu_main{
+        margin-top: 18%;
+        padding-bottom: 10%;
+    }
     .card-educacion {
         width: 78vh; 
         height: 13vh;
@@ -29,6 +37,10 @@
 
 /*Large devices (landscape phones, 576px and up)*/
 @media (min-width: 992px) {
+    .edu_main{
+        margin-top: 16%;
+        padding-bottom: 10%;
+    }
     .card-educacion {
         width: 98vh; 
         height: 13vh;
@@ -37,6 +49,10 @@
 
 /*X-Large devices (landscape phones, 576px and up)*/
 @media (min-width: 1200px) { 
+    .edu_main{
+        margin-top: 13%;
+        padding-bottom: 10%;
+    }
     .card-educacion {
         width: 108vh; 
         height: 13vh;
@@ -45,6 +61,10 @@
 
 /*XX-Large devices (landscape phones, 576px and up)*/
 @media (min-width: 1400px) { 
+    .edu_main{
+        margin-top: 10%;
+        padding-bottom: 10%;
+    }
     .card-educacion {
     width: 108vh; 
     height: 13vh;

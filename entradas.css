@@ -1,15 +1,22 @@
 .entradas_main{
-    margin-top: 10%;
+    margin-top: 50%;
     padding-bottom: 5%;
 }
 
-
+.entradas {
+    width: auto;
+    justify-content: center;
+}
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
     .construccion {
         font-size: 0.5rem;
         margin-top:-170px;
     } 
+    .entradas_main{
+        margin-top: 30%;
+        padding-bottom: 5%;
+    }
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -18,7 +25,10 @@
         font-size: 0.6rem;
         margin-top:-130px;
     } 
-    
+    .entradas_main{
+        margin-top: 25%;
+        padding-bottom: 5%;
+    }
 }
 
 /*Large devices (landscape phones, 576px and up)*/
@@ -26,6 +36,10 @@
     .construccion {
         font-size: 0.7rem;
     } 
+    .entradas_main{
+        margin-top: 20%;
+        padding-bottom: 5%;
+    }
 }
 
 /*X-Large devices (landscape phones, 576px and up)*/
@@ -33,6 +47,10 @@
     .construccion {
         font-size: 0.8rem;
     }  
+    .entradas_main{
+        margin-top: 13%;
+        padding-bottom: 5%;
+    }
 }
 
 /*XX-Large devices (landscape phones, 576px and up)*/
@@ -40,4 +58,8 @@
     .construccion {
         font-size: 2rem;
     } 
+    .entradas_main{
+        margin-top: 13%;
+        padding-bottom: 0%;
+    }
 }
