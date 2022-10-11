@@ -74,6 +74,33 @@ li .nav-item{
 .txtfooter{
     font-size: 1em;
 }
+
+/* Small devices (landscape phones, 200px and up)*/
+
+@media only screen and (min-width: 200px) {
+    .logo{
+        margin-left: 30px;
+    }
+    .carousel-item img {
+        height: 85vh;
+      }
+      .central-div-img{
+        top: 35%;
+        width: 130px;
+        height: 170px;
+    }
+    
+    .texto-square{
+        padding-top: 5%;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 37px;
+        color: #000000;
+        text-align: left; 
+        margin-top:-30px;
+        margin: 10px;
+    }
+  }
 /* Small devices (landscape phones, 376px and up)*/
 
 @media only screen and (min-width: 376px) {
