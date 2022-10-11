@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="MaradonArt's">
     <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet">
 <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
@@ -41,7 +41,7 @@
     <title>Exposiciones</title>
 </head>
 <body>
-    <header class="flex {grow|shrink}-0 fixed-top">  
+    <header class="flex {grow|shrink}-0 sticky-top">  
         
         <!--Inserindo barra de navegação do boot-->
 
@@ -49,7 +49,7 @@
 <div class="container-fluid">
 
             <a class="navbar-brand" href="index.html">
-              <img class="logo" src="./imagene/Logo museo.png" alt="" height="120px">
+              <img class="logo" src="./imagene/Logo museo.png" alt="">
             </a>
 
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -87,26 +87,30 @@
 </div>
           </nav> <!--end NavBar-->
     </header>    
-    <main>
-        <div class="art-container">
-            <img class="artist_img" src="/images/salvador.png" alt="cuadro de Salvador Dalí Galatea de les esferes">
-            <div class="artist-container">
-                <h1 class="artist">Salvador Dalí</h1>
-            </div>
-            <div class="arrow-container">
-                <a href="#">></a>
-            </div>
-        </div>
-            <div class="art-container" >
-                <img class="artist_img" src="/images/lita.png" alt="cuadro de Lita Cabellut">
-                <div class="artist-container dali">
-                    <h1 class="artist">Lita Cabellut</h1>
+        <main>
+            <div class="main-container_art">
+
+                <div class="art-container">
+                    <img class="artist_img" src="assets/img/salvador.png" alt="cuadro de Salvador Dalí Galatea de les esferes">
+                    <div class="artist-container">
+                        <h2 class="artist">Salvador Dalí</h2>
+                    </div>
+                    <div class="arrow-container">
+                        <a href="dali.html">></a>
+                    </div>
                 </div>
-                <div class="arrow-container">
-                    <a href="#">></a>
+                <div class="art-container">
+                    <img class="artist_img" src="assets/img/lita.png" alt="cuadro de Lita Cabellut">
+                    <div class="artist-container dali">
+                        <h2 class="artist">Lita Cabellut</h2>
+                    </div>
+                    <div class="arrow-container">
+                        <a href="lita.html">></a>
+                    </div>
                 </div>
             </div>
-    </main>
-</body>
-<script src="bootstrap.bundle.min.js"></script>
+            </main>
+            <script src="bootstrap.bundle.min.js"></script>
+        </body>
+
 </html>

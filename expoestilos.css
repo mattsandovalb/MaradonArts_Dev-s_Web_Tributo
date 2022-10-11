@@ -4,17 +4,25 @@
     box-sizing: border-box;
 }
 
+.logo {
+    height: 70px;
+    width: auto;
 
-.nav-prov {
-    background-color: black;
-    width: 100%;
-    height: 9vh;
+}
+
+.main-container_art {
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.margin-bottom {
     margin-bottom: 20px;
 }
 
-
 .art-container {
-    margin-bottom: 20px;
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
@@ -28,17 +36,18 @@
     align-items: center;
     background-color: #fff;
     opacity: 0.8;
-    width: 220px;
-    height: 30px;
+    width: auto;
+    height: auto;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 20px;
+    left: 20px;
    
 }
 
-/* .artist {
-
-} */
+.artist {
+    padding: .3 .5rem;
+    margin-bottom: 0;
+}
 
 .artist_img {
     width: 100%;
@@ -54,8 +63,8 @@
     width: 44px;
     height: 44px;
     position: absolute;
-    bottom: 5px;
-    right: 5px;
+    bottom: 15px;
+    right: 15px;
     font-size: 3rem;
 }
 
@@ -74,13 +83,17 @@
 
 @media screen and (min-width: 768px) {
     main {
+
+        
+    }
+
+    .main-container_art {
         display: flex;
-    }
+        justify-content: center;
+        align-items: center;
 
-    .nav-prov {
-        margin-bottom: 30px;
     }
-
+    
     .art-container {
         width: 360px;
         height: 440px;
@@ -89,13 +102,22 @@
 }
 
 @media screen and (min-width: 992px) {
+    .main-container_art {
+        display: flex;
+    }
+    
     .art-container {
+        display: flex;
         width: 470px;
         height: 470px;
 }
 }
 
 @media screen and (min-width: 1200px) {
+    .main-container_art {
+        display: flex;
+    }
+    
     .art-container {
         width: 570px;
         height: 490px;
@@ -103,6 +125,10 @@
 }
 
 @media screen and (min-width: 1400px) {
+    .main-container_art {
+        display: flex;
+    }
+    
     .art-container {
         width: 670px;
         height: 500px;
