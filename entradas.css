@@ -1,5 +1,5 @@
 .entradas_main{
-    margin-top: 50%;
+    margin-top: 5%;
     padding-bottom: 5%;
 }
 
@@ -14,7 +14,6 @@
         margin-top:-170px;
     } 
     .entradas_main{
-        margin-top: 30%;
         padding-bottom: 5%;
     }
 }
@@ -26,7 +25,6 @@
         margin-top:-130px;
     } 
     .entradas_main{
-        margin-top: 25%;
         padding-bottom: 5%;
     }
 }
@@ -37,7 +35,6 @@
         font-size: 0.7rem;
     } 
     .entradas_main{
-        margin-top: 20%;
         padding-bottom: 5%;
     }
 }
@@ -48,7 +45,6 @@
         font-size: 0.8rem;
     }  
     .entradas_main{
-        margin-top: 13%;
         padding-bottom: 5%;
     }
 }
@@ -59,7 +55,6 @@
         font-size: 2rem;
     } 
     .entradas_main{
-        margin-top: 13%;
         padding-bottom: 0%;
     }
 }
