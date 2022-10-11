@@ -37,7 +37,7 @@ body{
     height: 55px;
 }
 
-.central-div{
+.central-div-img{
     width: 920px;
     height: 410px;
     background: rgba(255, 255, 255, 0.8);
@@ -72,7 +72,7 @@ body{
     .carousel-item img {
         height: 85vh;
       }
-    .central-div{
+      .central-div-img{
         top: 35%;
         width: 220px;
         height: 320px;
@@ -96,7 +96,7 @@ body{
     .carousel-item img {
         height: 100vh;
       }
-    .central-div{
+    .central-div-img{
         top: 35%;
         width: 320px;
         height: 320px;
@@ -116,7 +116,7 @@ body{
   /* Medium devices (tablets, 768px and up)*/
   @media only screen and (min-width: 768px) {
     
-    .central-div{
+    .central-div-img{
         width: 430px;
         height: 220px;
         left: 20%;
@@ -138,7 +138,7 @@ body{
 /* Large devices (desktops, 992px and up)*/
   @media  only screen and (min-width: 992px) {
     
-    .central-div{
+    .central-div-img{
         width: 450px;
         height: 250px;
         left: 25%;
@@ -161,7 +161,7 @@ body{
 /* Large devices (desktops, 992px and up)*/
   @media  only screen and (min-width: 1200px) {
    
-    .central-div{
+    .central-div-img{
         width: 730px;
         height: 320px;
         left: 17%;
@@ -181,7 +181,7 @@ body{
   }
   @media  only screen and (min-width: 1400px) {
     
-    .central-div{
+    .central-div-img{
         width: 730px;
         height: 350px;
         left: 25%;
@@ -200,7 +200,7 @@ body{
   }
   @media  only screen and (min-width: 1800px) {
     
-    .central-div{
+    .central-div-img{
         width: 730px;
         height: 350px;
         left: 33%;
