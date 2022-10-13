@@ -1,60 +1,60 @@
-.entradas_main{
-    margin-top: 5%;
-    padding-bottom: 5%;
+.entradas_main {
+  margin-top: 5%;
+  padding-bottom: 5%;
 }
 
 .entradas {
-    width: auto;
-    justify-content: center;
+  width: auto;
+  justify-content: center;
 }
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
-    .construccion {
-        font-size: 0.5rem;
-        margin-top:-170px;
-    } 
-    .entradas_main{
-        padding-bottom: 5%;
-    }
+@media (min-width: 576px) {
+  .construccion {
+    font-size: 0.5rem;
+    margin-top: -170px;
+  }
+  .entradas_main {
+    padding-bottom: 5%;
+  }
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    .construccion {
-        font-size: 0.6rem;
-        margin-top:-130px;
-    } 
-    .entradas_main{
-        padding-bottom: 5%;
-    }
+  .construccion {
+    font-size: 0.6rem;
+    margin-top: -130px;
+  }
+  .entradas_main {
+    padding-bottom: 5%;
+  }
 }
 
 /*Large devices (landscape phones, 576px and up)*/
 @media (min-width: 992px) {
-    .construccion {
-        font-size: 0.7rem;
-    } 
-    .entradas_main{
-        padding-bottom: 5%;
-    }
+  .construccion {
+    font-size: 0.7rem;
+  }
+  .entradas_main {
+    padding-bottom: 5%;
+  }
 }
 
 /*X-Large devices (landscape phones, 576px and up)*/
 @media (min-width: 1200px) {
-    .construccion {
-        font-size: 0.8rem;
-    }  
-    .entradas_main{
-        padding-bottom: 5%;
-    }
+  .construccion {
+    font-size: 0.8rem;
+  }
+  .entradas_main {
+    padding-bottom: 5%;
+  }
 }
 
 /*XX-Large devices (landscape phones, 576px and up)*/
-@media (min-width: 1400px) { 
-    .construccion {
-        font-size: 2rem;
-    } 
-    .entradas_main{
-        padding-bottom: 0%;
-    }
+@media (min-width: 1400px) {
+  .construccion {
+    font-size: 2rem;
+  }
+  .entradas_main {
+    padding-bottom: 0%;
+  }
 }
