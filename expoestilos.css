@@ -77,19 +77,19 @@
 }
 
 @media screen and (min-width: 768px) {
-  main {
-  }
+   
+    .main-container_art {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-  .main-container_art {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+    }
+    
+    .art-container {
+        width: 360px;
+        height: 440px;
 
-  .art-container {
-    width: 360px;
-    height: 440px;
-  }
+    }
 }
 
 @media screen and (min-width: 992px) {
